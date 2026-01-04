@@ -37,6 +37,7 @@ pipeline {
                         echo response
                         error 'Test NG'
                     }
+                }
             }
         }
         stage('Release') {
